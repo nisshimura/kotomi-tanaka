@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/kotomi-tanaka/static/css/main.435d5fe5.chunk.css",
+    "main.js": "/kotomi-tanaka/static/js/main.26948cee.chunk.js",
+    "main.js.map": "/kotomi-tanaka/static/js/main.26948cee.chunk.js.map",
+    "runtime~main.js": "/kotomi-tanaka/static/js/runtime~main.5a7800cb.js",
+    "runtime~main.js.map": "/kotomi-tanaka/static/js/runtime~main.5a7800cb.js.map",
+    "static/js/2.bbc244fd.chunk.js": "/kotomi-tanaka/static/js/2.bbc244fd.chunk.js",
+    "static/js/2.bbc244fd.chunk.js.map": "/kotomi-tanaka/static/js/2.bbc244fd.chunk.js.map",
+    "static/js/3.a29efab2.chunk.js": "/kotomi-tanaka/static/js/3.a29efab2.chunk.js",
+    "static/js/3.a29efab2.chunk.js.map": "/kotomi-tanaka/static/js/3.a29efab2.chunk.js.map",
+    "index.html": "/kotomi-tanaka/index.html",
+    "precache-manifest.7af8b171c912252d0bcd9382e3e9d3c9.js": "/kotomi-tanaka/precache-manifest.7af8b171c912252d0bcd9382e3e9d3c9.js",
+    "service-worker.js": "/kotomi-tanaka/service-worker.js",
+    "static/css/main.435d5fe5.chunk.css.map": "/kotomi-tanaka/static/css/main.435d5fe5.chunk.css.map",
+    "static/media/logo.svg": "/kotomi-tanaka/static/media/logo.06e73328.svg"
+  }
+}
