@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kotomi-tanaka/precache-manifest.9c9785cfced9251271f86865939ccc74.js"
+  "/kotomi-tanaka/precache-manifest.7c218777d97601855095dbe8fba67556.js"
 );
 
 self.addEventListener('message', (event) => {
