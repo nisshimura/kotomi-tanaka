@@ -28,9 +28,10 @@
 
 .image-gallery {
   display: flex;
-  overflow-x: scroll;
+  overflow-x: auto;
   gap: 10px;
   padding: 10px;
+  white-space: nowrap;
 }
 
 .image-gallery img {
@@ -52,6 +53,7 @@
   .image-gallery {
     flex-direction: column;
     align-items: center;
+    white-space: normal;
   }
 
   .image-gallery img {
