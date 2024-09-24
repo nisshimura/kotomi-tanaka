@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45de4e605758b508e2dfb263b2c0b2be",
+    "revision": "98cf6935ce19fc99f3c12ee9787bf018",
     "url": "/kotomi-tanaka/index.html"
   },
   {
-    "revision": "486f0b35c915eb2f42ed",
+    "revision": "2508b9f4819d4891c17d",
     "url": "/kotomi-tanaka/static/css/main.a48a6d93.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kotomi-tanaka/static/js/3.0e4cdb98.chunk.js"
   },
   {
-    "revision": "486f0b35c915eb2f42ed",
-    "url": "/kotomi-tanaka/static/js/main.ab12c45d.chunk.js"
+    "revision": "2508b9f4819d4891c17d",
+    "url": "/kotomi-tanaka/static/js/main.ca3d8234.chunk.js"
   },
   {
     "revision": "b3cae338463806268941",

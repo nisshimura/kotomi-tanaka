@@ -11,19 +11,19 @@ function App() {
   const [clothingImages, setClothingImages] = useState([]);
 
   useEffect(() => {
-    fetch(process.env.PUBLIC_URL + '/data/text/portfolio.txt')
+    fetch(`${process.env.PUBLIC_URL}/data/text/portfolio.txt`)
       .then(response => response.text())
       .then(data => setPortfolioText(data));
 
-    fetch(process.env.PUBLIC_URL + '/data/text/demo.txt')
+    fetch(`${process.env.PUBLIC_URL}/data/text/demo.txt`)
       .then(response => response.text())
       .then(data => setDemoText(data));
 
-    fetch(process.env.PUBLIC_URL + '/data/text/memos.txt')
+    fetch(`${process.env.PUBLIC_URL}/data/text/memos.txt`)
       .then(response => response.text())
       .then(data => setMemosText(data));
 
-    fetch(process.env.PUBLIC_URL + '/data/text/clothing.txt')
+    fetch(`${process.env.PUBLIC_URL}/data/text/clothing.txt`)
       .then(response => response.text())
       .then(data => setClothingText(data));
 
