@@ -66,10 +66,10 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Portfolio</Link>
+              <Link to="/kotomi_tanaka">Portfolio</Link>
             </li>
             <li>
-              <Link to="/profile">Profile</Link>
+              <Link to="/kotomi_tanaka/profile">Profile</Link>
             </li>
           </ul>
         </nav>
