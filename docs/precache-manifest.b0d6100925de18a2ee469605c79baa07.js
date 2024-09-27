@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "98cf6935ce19fc99f3c12ee9787bf018",
+    "revision": "911590b153f14039b92e6c671c30c6cb",
     "url": "/kotomi-tanaka/index.html"
   },
   {
-    "revision": "2508b9f4819d4891c17d",
-    "url": "/kotomi-tanaka/static/css/main.a48a6d93.chunk.css"
+    "revision": "27ff9a1656bb97ad02d9",
+    "url": "/kotomi-tanaka/static/css/main.01abc580.chunk.css"
   },
   {
-    "revision": "1582e325d1bcf091e744",
-    "url": "/kotomi-tanaka/static/js/2.ca150098.chunk.js"
+    "revision": "8cc81460edb379050292",
+    "url": "/kotomi-tanaka/static/js/2.fc9ed4cc.chunk.js"
   },
   {
-    "revision": "1876019e6f8cf7ca83e2",
-    "url": "/kotomi-tanaka/static/js/3.0e4cdb98.chunk.js"
+    "revision": "b95080709ac12d0967db165d90e6c04a",
+    "url": "/kotomi-tanaka/static/js/2.fc9ed4cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2508b9f4819d4891c17d",
-    "url": "/kotomi-tanaka/static/js/main.ca3d8234.chunk.js"
+    "revision": "c14f1890cb4fda80e846",
+    "url": "/kotomi-tanaka/static/js/3.88ece7e0.chunk.js"
   },
   {
-    "revision": "b3cae338463806268941",
-    "url": "/kotomi-tanaka/static/js/runtime~main.4915f028.js"
+    "revision": "27ff9a1656bb97ad02d9",
+    "url": "/kotomi-tanaka/static/js/main.51d59f04.chunk.js"
+  },
+  {
+    "revision": "490dffadb46b628dd519",
+    "url": "/kotomi-tanaka/static/js/runtime-main.a9279d52.js"
   },
   {
     "revision": "d486d6d465fddfe5dce845589f0de970",
@@ -64,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kotomi-tanaka/static/media/S__191832136_0.d3b1c535.jpg"
   },
   {
-    "revision": "8448155fd47e0eaaccf9c44422916be5",
-    "url": "/kotomi-tanaka/static/media/S__191832147_0.8448155f.jpg"
+    "revision": "063a8160754e04dc674fd4ba3536efc9",
+    "url": "/kotomi-tanaka/static/media/S__191832147_0.063a8160.jpg"
   },
   {
     "revision": "7990fe1ffbf43e3421e3e0256f85d832",
