@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom"; // Routerを削除
 import "./App.css";
 import Profile from "./pages/Profile";
 
@@ -61,65 +61,63 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      <div className="App">
-        <nav>
-          <ul>
-            <li>
-              <Link to="/kotomi_tanaka">Portfolio</Link>
-            </li>
-            <li>
-              <Link to="/kotomi_tanaka/profile">Profile</Link>
-            </li>
-          </ul>
-        </nav>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <header className="App-header">
-                  <h1>服飾学生のポートフォリオ</h1>
-                  <p>{portfolioText}</p>
-                </header>
-                <section className="section">
-                  <h2>学校での作業風景</h2>
-                  <p>{demoText}</p>
-                  <div className="image-gallery">
-                    {demoImages.map((image, index) => (
-                      <img key={index} src={image} alt={`Demo ${index + 1}`} />
-                    ))}
-                  </div>
-                </section>
-                <section className="section">
-                  <h2>作りたい服の絵</h2>
-                  <p>{memosText}</p>
-                  <div className="image-gallery">
-                    {memosImages.map((image, index) => (
-                      <img key={index} src={image} alt={`Memo ${index + 1}`} />
-                    ))}
-                  </div>
-                </section>
-                <section className="section">
-                  <h2>実際に作った服</h2>
-                  <p>{clothingText}</p>
-                  <div className="image-gallery">
-                    {clothingImages.map((image, index) => (
-                      <img
-                        key={index}
-                        src={image}
-                        alt={`Clothing ${index + 1}`}
-                      />
-                    ))}
-                  </div>
-                </section>
-              </>
-            }
-          />
-          <Route path="/profile" element={<Profile />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="App">
+      <nav>
+        <ul>
+          <li>
+            <Link to="/kotomi-tanaka/">Portfolio</Link>
+          </li>
+          <li>
+            <Link to="/kotomi-tanaka/profile">Profile</Link>
+          </li>
+        </ul>
+      </nav>
+      <Routes>
+        <Route
+          path="/kotomi-tanaka/"
+          element={
+            <>
+              <header className="App-header">
+                <h1>服飾学生のポートフォリオ</h1>
+                <p>{portfolioText}</p>
+              </header>
+              <section className="section">
+                <h2>学校での作業風景</h2>
+                <p>{demoText}</p>
+                <div className="image-gallery">
+                  {demoImages.map((image, index) => (
+                    <img key={index} src={image} alt={`Demo ${index + 1}`} />
+                  ))}
+                </div>
+              </section>
+              <section className="section">
+                <h2>作りたい服の絵</h2>
+                <p>{memosText}</p>
+                <div className="image-gallery">
+                  {memosImages.map((image, index) => (
+                    <img key={index} src={image} alt={`Memo ${index + 1}`} />
+                  ))}
+                </div>
+              </section>
+              <section className="section">
+                <h2>実際に作った服</h2>
+                <p>{clothingText}</p>
+                <div className="image-gallery">
+                  {clothingImages.map((image, index) => (
+                    <img
+                      key={index}
+                      src={image}
+                      alt={`Clothing ${index + 1}`}
+                    />
+                  ))}
+                </div>
+              </section>
+            </>
+          }
+        />
+        <Route path="/kotomi-tanaka/profile" element={<Profile />} />
+      </Routes>
+    </div>
   );
 }
 
